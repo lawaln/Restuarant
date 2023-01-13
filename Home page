@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Restaurant Aggregator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Restaurant Aggregator</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#restaurants">Restaurants</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Restaurant Aggregator</h2>
+      <p>Find the best restaurants near you with our comprehensive directory.</p>
+    </section>
+
+    <section id="restaurants">
+      <h2>Explore Restaurants</h2>
+      <form>
+        <label for="location">Enter your location:</label>
+        <input type="text" id="location" name="location">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of food enthusiasts dedicated to helping you find the best restaurants in your area.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@restaurantaggregator.com</p>
+      <p>Phone: 555-555-5555</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 Restaurant Aggregator</p>
+  </footer>
+
+</body>
+
+</html>
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  background-
